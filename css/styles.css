@@ -1,4 +1,5 @@
 .navbar {
+    overflow: hidden;
     list-style-type: none;
     margin: 0;
     position: fixed;
