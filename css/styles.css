@@ -3,7 +3,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:rgb(0,0,0,0.5);
+    background-color:rgb(0,0,0,0.8);
   }
   
   li {
@@ -25,6 +25,7 @@ ul {
       background-position: center;
       background-attachment: fixed;
       background-repeat: no-repeat;
-      height: 100px;
+      height: 100vh;
       width: 100%;
+      background-color: rgb(0,0,0,0.5);
   }
