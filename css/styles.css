@@ -3,8 +3,7 @@
     list-style-type: none;
     margin: 0;
     position: fixed;
-    top: 0;
-    background-image: url(images/photo-1529101091764-c3526daf38fe.jpeg);
+    padding: 0;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
