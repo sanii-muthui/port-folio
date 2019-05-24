@@ -24,6 +24,10 @@ body {
   .active {
     background-color: #4CAF50;
   }
+  .image{
+      background-image: url(images/photo-1529101091764-c3526daf38fe.jpeg);
+      background-position: center;
+  }
 @media screen and (max-width: 500px) {
     .navbar a {
       float: none;
