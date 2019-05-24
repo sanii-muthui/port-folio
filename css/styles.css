@@ -4,7 +4,13 @@
     margin: 0;
     position: fixed;
     top: 0;
-    background-color:rgb(0,0,0,0.3);
+    background-image: url(images/photo-1529101091764-c3526daf38fe.jpeg);
+    background-position: center;
+    background-color: #111;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 100%;
   }
   
   .navbar a {
@@ -18,13 +24,4 @@
   
   .navbar a:hover {
     background-color: #111;
-  }
-  .navbar{
-      background-image: url(images/photo-1529101091764-c3526daf38fe.jpeg);
-      background-position: center;
-      background-color: #111;
-      background-attachment: fixed;
-      background-repeat: no-repeat;
-      height: 70vh;
-      width: 100%;
   }
