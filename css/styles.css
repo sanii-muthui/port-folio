@@ -22,7 +22,7 @@ ul {
     background-color: #111;
   }
   .container{
-      background-image: url(images/photo-1529101091764-c3526daf38fe.jpeg);
+      background-image: url(images/photo-1529101091764-c3526daf38fe.jpeg),rgb(0,0,0,0.5);
       background-position: center;
       background-attachment: fixed;
       background-repeat: no-repeat;
