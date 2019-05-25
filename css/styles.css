@@ -26,12 +26,16 @@ body {
   }
   .card {
     background-color: rgba(0,0,0,0.2);
-    padding: 50px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
     transition: 0.3s;
-    height: 30%;
-    width: 70%;
     margin-left: 30px;
+    border-radius: 1em;
+    padding: 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
   }
   
   .card:hover {
