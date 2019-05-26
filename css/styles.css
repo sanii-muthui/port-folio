@@ -49,3 +49,16 @@ body {
       display: block;
     }
 }
+.btn{
+  border: none;
+  background-color: inherit;
+  text-align: center;
+  font-size: 26px;
+  cursor: pointer;
+  display: inline-block;
+  border: 1px solid #ccc;
+  background:green;
+  border: 0;
+  color: white;
+  width: 100%;
+}
