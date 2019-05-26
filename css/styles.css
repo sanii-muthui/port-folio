@@ -25,17 +25,15 @@ body {
     background-color: #4CAF50;
   }
   .card {
-    padding: 10px;
-    border: 1px solid #ccc;
-    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.8);
-    position: absolute;
-    height: 70%;
-    font-size: 20px;
-    width: 50%;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%) 
+    width: 100%;
+    min-height: 460px;
+    margin: auto;
+    box-shadow: 0px 8px 60px -10px rgba(13,28,39,0.6);
+    background:whitesmoke;
+    border-radius: 12px;
+    max-width: 700px;
+    position: relative;
+  
   }
   
   .card:hover {
@@ -46,7 +44,7 @@ body {
     padding: 2px 16px;
   }
 @media screen and (max-width: 500px) {
-    .navbar a {
+    .navbar a,.card {
       float: none;
       display: block;
     }
