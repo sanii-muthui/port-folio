@@ -10,11 +10,18 @@
         </div>
     </div>
 <style>
+    @media screen and (max-width: 500px) {
+    .navbar a, .text,.grid{
+      float: none;
+      display: block;
+    }
+}
 .grid { 
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-gap: 30px;
   padding: 20px;
+ 
   }
 .grid > article {
   border: 1px solid #ccc;
@@ -25,6 +32,9 @@
 }
 .text {
   padding: 0 20px 20px;
+  -webkit-justify-content: center;
+
+  
 }
 .text > button {
   background: gray;
