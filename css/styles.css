@@ -25,17 +25,17 @@ body {
     background-color: #4CAF50;
   }
   .card {
-    background-color: rgba(0,0,0,0.2);
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
-    transition: 0.3s;
-    margin-left: 30px;
-    border-radius: 1em;
-    padding: 1em;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.8);
     position: absolute;
+    height: 70%;
+    font-size: 20px;
+    width: 50%;
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%) 
   }
   
   .card:hover {
