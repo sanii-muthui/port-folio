@@ -24,7 +24,7 @@ body {
     background-color: #4CAF50;
   }
     @media screen and (max-width: 500px) {
-    .navbar a, .text, .grid{
+    .navbar a{
       float: none;
       display: block;
     }
